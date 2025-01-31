@@ -8,7 +8,7 @@ Understanding how different physiological and performance-related factors influe
 
 This repository provides tools and resources and aim to predict body performance levels based on available physiological features, offering valuable insights for fitness trainers, medical professionals, and sports analysts.
 
-![Body performance classification](https://github.com/tsila-andriantsoa/health_insurance_lead_prediction/blob/main/img/body_performance_classification.jpeg)
+![Body performance classification](https://github.com/tsila-andriantsoa/Body_performance_classification/blob/main/img/body_performance_classification.jpeg)
 
 ## Dataset
 
