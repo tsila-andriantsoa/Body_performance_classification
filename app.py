@@ -19,7 +19,7 @@ def set_background(image_file):
     h1, p {{
         color: #FFFFFF;  /* Set font color for inputs */
     }}
-    .stTextInput, .stNumberInput, .stSelectbox, .stButton {{
+    h1, p, .stTextInput, .stNumberInput, .stSelectbox, .stButton {{
         color: #FFFFFF;  /* Set font color for inputs */
     }}
     
