@@ -109,12 +109,7 @@ To set up this project locally with pipenv, follow these steps:
    ```
    
    
-- Set up the projet using **Docker Container** <p align="center">
-                                                     <a href="https://skillicons.dev">
-                                                          <img src="https://skillicons.dev/icons?i=docker" />
-                                                     </a>
-                                               </p>
-
+- <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker" </a>Set up the projet using **Docker Container**
   Build the docker image (make sure docker is already installed):
    ```bash
    docker build -t predict-app .
