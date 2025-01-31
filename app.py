@@ -42,6 +42,9 @@ def set_background(image_file):
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
+# Load the model and utilities 
+loaded_pipeline = joblib.load('model/pipeline_baseline.pkl')    
+    
 # Set background image
 set_background("img/background.jpg")
 
@@ -80,12 +83,21 @@ if st.button("Predict Performance"):
         "sit_ups_counts": sit_ups_counts,
         "broad_jump_cm": broad_jump
     }
-    
-    # Send request to Flask server
-    response = requests.post("http://127.0.0.1:5000/predict", json=input_data)
-    
-    if response.status_code == 200:
-        prediction = response.json().get("prediction", "Unknown")
+    try:
+        # Create dataframe based on JSON object
+        df = pd.DataFrame(input_data, index = [0])       
+
+        # rename data columns
+        new_col_names = ['age', 'gender', 'height_cm', 'weight_kg', 'body_fat_%', 'diastolic',
+           'systolic', 'gripForce', 'sit_and_bend_forward_cm', 'sit_ups_counts', 'broad_jump_cm', ]
+
+        df.columns = new_col_names
+
+        # Make a prediction
+        prediction = loaded_pipeline.predict(df)[0]
+        
         st.success(f"Predicted Performance: {prediction}")
-    else:
-        st.error("Error in prediction. Check server.")
+        
+    except Exception as e:
+        
+        st.error("Error in prediction.")
