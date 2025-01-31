@@ -85,7 +85,7 @@ To set up this project locally with pipenv, follow these steps:
    ```
    XGBoost dependencies could not be resolved using pipenv and python version used for the environment. Run the following command to bypass this mecanism
    ```bash
-   pipenv run pip install xgboost
+   pipenv run pip install xgboost streamlit
    ```
    
 4. Running the project
