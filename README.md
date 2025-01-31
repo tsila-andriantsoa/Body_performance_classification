@@ -120,4 +120,5 @@ To set up this project locally with pipenv, follow these steps:
    docker run -d -p 5000:5000 predict-app
    ```   
 
-- Check a streamlit app for project simulation at ![Body performance classification](https://0194bbd8-9744-cedf-0626-beb887764536.share.connect.posit.cloud/)
+- Check a streamlit app for project simulation at ![Body performance classification](https://github.com/tsila-andriantsoa/Body_performance_classification/blob/main/img/streamlit.PNG)
+  https://0194bbd8-9744-cedf-0626-beb887764536.share.connect.posit.cloud
