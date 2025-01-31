@@ -8,7 +8,7 @@ Understanding how different physiological and performance-related factors influe
 
 This repository provides tools and resources and aim to predict body performance levels based on available physiological features, offering valuable insights for fitness trainers, medical professionals, and sports analysts.
 
-![Body performance classification](https://github.com/tsila-andriantsoa/health_insurance_lead_prediction/blob/main/img/body_performance_classification.jpeg)
+![Body performance classification](https://github.com/tsila-andriantsoa/Body_performance_classification/blob/main/img/body_performance_classification.jpeg)
 
 ## Dataset
 
@@ -120,5 +120,6 @@ To set up this project locally with pipenv, follow these steps:
    docker run -d -p 5000:5000 predict-app
    ```   
 
-- We create a streamlit app to simulate project application. Check it at ![Body performance classification](https://0194bbd8-9744-cedf-0626-beb887764536.share.connect.posit.cloud/)
-![Body performance classification](https://github.com/tsila-andriantsoa/health_insurance_lead_prediction/blob/main/img/streamlit.PNG)
+- Check a streamlit app for project simulation https://0194bbd8-9744-cedf-0626-beb887764536.share.connect.posit.cloud
+![Body performance classification](https://github.com/tsila-andriantsoa/Body_performance_classification/blob/main/img/streamlit.PNG)
+  
