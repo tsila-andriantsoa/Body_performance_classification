@@ -1,4 +1,5 @@
-# Body_performance_classification
+# Body performance classification
+## Overview
 
 Welcome to the **Body_performance_classification** project! 
 
@@ -108,7 +109,11 @@ To set up this project locally with pipenv, follow these steps:
    ```
    
    
-- Set up the projet using **Docker Container**
+- Set up the projet using **Docker Container** <p align="center">
+                                                     <a href="https://skillicons.dev">
+                                                          <img src="https://skillicons.dev/icons?i=docker" />
+                                                     </a>
+                                               </p>
 
   Build the docker image (make sure docker is already installed):
    ```bash
